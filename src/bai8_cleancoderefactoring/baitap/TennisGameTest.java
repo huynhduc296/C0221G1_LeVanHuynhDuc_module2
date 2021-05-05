@@ -79,4 +79,7 @@ public class TennisGameTest {
         assertEquals(this.expectedScore, TennisGame.getNotification("John", "Bill", m_score1, m_score2));
     }
 
+    private void assertEquals(String expectedScore, String notification) {
+    }
+
 }
